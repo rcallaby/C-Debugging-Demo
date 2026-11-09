@@ -37,8 +37,8 @@ Both assignments deliberately contain the following classic bugs:
 A smooth, full-screen animation of a rocket lifting off, complete with status readouts and a polished “Mission Success” ending screen. The console window stays open until the user presses Enter.
 
 **Files**
-- `rocket_launch_buggy.c` – the version students receive
-- `rocket_launch_fixed.c` – the complete, error-free reference solution
+- `assignments/rocketlaunch/rocket_launch_buggy.c` – the version students receive
+- `assignments/rocketlaunch/rocket_launch.c` – the complete, error-free reference solution
 
 **Key features of the fixed program**
 - ANSI clear-screen animation
@@ -57,8 +57,8 @@ A smooth, full-screen animation of a rocket lifting off, complete with status re
 A clean, atmospheric digital-rain animation that runs for a set number of frames and then displays a success message (“SYSTEM SECURE”). The program ends with a “Press Enter to exit” prompt.
 
 **Files**
-- `matrix_rain_buggy.c` – the version students receive
-- `matrix_rain_fixed.c` – the complete, error-free reference solution
+- `assignments/matrixrain/matrix_rain_buggy.c` – the version students receive
+- `assignments/matrixrain/matrix_rain.c` – the complete, error-free reference solution
 
 **Key features of the fixed program**
 - Multiple independent falling columns
@@ -84,8 +84,6 @@ gcc -Wall -Wextra -std=c11 -o matrix matrix_rain_fixed.c
 ```
 
 Both programs use only standard C11 and ANSI escape sequences. They work on modern Windows Terminal, macOS, and Linux terminals.
-
----
 
 ## Instructions for Students
 
